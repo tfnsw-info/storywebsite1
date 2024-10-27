@@ -1,0 +1,107 @@
+/* * {border: solid 1px blue;} */
+@import url('https://fonts.googleapis.com/css?family=Monospace');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: rgb(240, 157, 81);
+    margin: 0px;
+}
+
+nav { 
+    background-color: rgb(178, 58, 72);
+    font-size: 180%;
+    height: 60px;
+    text-align: center;
+    word-spacing: 100px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(240, 157, 81);
+    text-decoration: none;
+}
+
+a:hover {
+     color: rgb(126, 239, 205);
+     transition: 0.4s;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: rgb(178, 58, 72);
+    font-weight: bold;
+    margin: 3%;
+    width: 43%;
+}
+
+main {
+    display: inline-block;
+}
+
+img {
+    margin: 3%;
+    width: 47%;
+    border: 15px solid rgb(40, 38, 44);
+}
+
+h1 {
+    font-family: Monospace;
+    font-weight: bold;
+    font-size: 400%;
+    text-decoration: underline;
+    color: rgb(178, 58, 72);
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.one {
+    padding-top: 6%;
+}
+
+.two {
+    margin-left: 53%
+
+}
+
+.three {
+    padding-top: 5%;
+}
+
+/* 
+black - rgb(40, 38, 44)
+red - rgb(178, 58, 72)
+orange - rgb(240, 157, 81)
+green - rgb(126, 239, 205)
+ */
+
+
+
+/* my stuff */
+
+
+
+footer {
+    
+}
+
+div {
+    background-color: rgb(29, 32, 31);
+    margin: 30px 0%;
+    padding: 50px 0%;
+    text-align: center;
+    width: 152.5%;
+    display: block;
+}
+
+h3 {
+    font-family: "roboto mono";
+    font-size:30pt;
+    font-weight:normal;
+    color: white;
+
+
+}
+
+

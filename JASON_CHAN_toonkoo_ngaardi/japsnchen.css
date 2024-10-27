@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+{border: solid 1px blue;}
+
+nav{
+    border:0;
+    background-color:rgb(128,0, 0);
+    height:10%;
+    padding:10px;
+    
+}
+
+h1{
+    width:100%;
+    text-align:center;
+
+    
+    
+}
+
+
+h2{
+    font-family:"Inter Tight";
+    margin-left:5%;
+    font-size:40px;
+    width:90%;
+
+}
+
+
+h3{
+    font-family:"ADLaM Display";
+    /* background-color:rgb(68,84,106); */
+    width:200px;
+}
+
+
+/* list of text story links */
+a.t-k{
+    font-family:"ADLaM Display";
+    margin-left:10%;
+    color:black;
+    text-decoration:none;
+    font-size:25px;
+    position:top;
+    width:100px;
+    
+    
+}
+
+
+a.homepage{
+    font-family:"ADLaM Display";
+    font-size:45px;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+p.storiesparagraph {
+    font-family:"Andika";
+    margin-left:5%;
+    width:800px;
+}
+
+
+p.Body-main {
+    font-family:"Andika";
+    margin-left:auto;
+    margin-right:auto;
+    width:55%;
+    font-size:25px;
+    display:
+}
+
+
+p.unreleased-stories{
+    font-family:"ADLaM Display";
+    margin-left:10%;
+    color:black;
+    text-decoration:none;
+    font-size:25px;
+    position:top;
+    width:100px;
+    
+}
+
+
+body {
+    background-color:rgb(218, 240, 238);
+    margin:0px;
+}
+
+
+img{
+    margin-left:5%;
+    max-height:250px;
+    max-width:500px;
+    display:inline;
+   
+
+}
+
+
+hr{
+    background-color:rgb(218, 240, 238);
+    
+}
+
+
+div.story:Toonkoo-Ngaardi{
+    margin: 50px 50px;
+    width:100px;
+    text-align:center;
+    
+}
+
+
+div{
+    text-align:center;
+}
+
+
+#grid-container{
+    display:grid;
+    column-gap:30px;
+    row-gap:30px;
+    grid-template-columns: auto auto;
+    grid-auto-rows: max-content;
+    grid-auto-flow:row-dense;
+
+}

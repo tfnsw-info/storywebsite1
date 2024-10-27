@@ -1,0 +1,125 @@
+ @import url('https://fonts.googleapis.com/css?family=Arima&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
+
+/* * {
+    border: solid 1px blue;
+} */
+
+nav {
+    text-align: center;
+    background-color:rgb(241, 195, 56);
+}
+
+nav img {
+    margin-top: 7px; 
+}
+
+a {
+    color:rgb(196, 30, 58);
+    font-size: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+main {
+    display: inline-block;
+    width: 50%;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: auto auto auto ;
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    margin-left: 200px;
+    }
+
+iframe {
+    width: 48%;
+}
+
+main h1 {
+    color:rgb(196, 30, 58);
+    font-size: 100px;
+    background-color:rgb(241, 195, 56);
+    }
+
+main img {
+    margin-top: 20px;
+        
+}
+
+header {
+
+}
+
+header h2 {
+    color:rgb(196, 30, 58);
+    font-size: 55px;
+    background-color:rgb(241, 195, 56); 
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", Arial;
+
+}
+
+footer {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    display: grid;
+    grid-gap: 75px;
+    grid-template-columns: auto auto 0;
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    }
+
+footer image {
+  
+}
+
+ h3 {
+    color:rgb(196, 30, 58);
+    background-color:rgb(241, 195, 56);
+    font-size: 33px;
+    font-family: "Arima", Arial;
+}
+
+aside {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: auto auto 0;
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    }
+
+div {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    display: grid;
+    grid-gap: 65px;
+    grid-template-columns: auto auto 0;
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    }
+
+section {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    display: grid;
+    grid-gap: 65px;
+    grid-template-columns: auto auto 0;
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    }
+    
+hr {
+    border: solid tomato;
+    border-color: rgb(241, 195, 56);
+    border-width: 12px;
+}
+
